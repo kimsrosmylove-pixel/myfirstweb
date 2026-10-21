@@ -1,0 +1,297 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Cambria,Cochin, Georgia, Times, 'Times New Roman', serif , 'Khmer OS Battambang';
+    background-color: rgba(195, 196, 205, 0.382);
+    line-height: 1.6;
+    
+}
+
+header{
+    border: 2px solid rgb(195, 26, 34);
+}
+header .logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #942727;
+
+}
+ nav{ 
+    max-width: 100%;
+    height: 70px;
+    margin: 5px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(195, 196, 205, 0.382);
+   
+
+   
+   
+}
+nav ul{
+    display: contents;
+    list-style: none;
+    gap: 30px;
+    
+     
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #0a0a0a;
+    transition: 0.5s;
+     background-color:rgba(195, 196, 205, 0.382) ;
+     border-radius: 10px;
+    
+}
+
+nav ul li a:hover{
+    color: blue;
+     position: relative;
+    border-radius: 60px;
+    backdrop-filter: blur(15px);
+    box-shadow: #309310;
+    border: 0.5px solid rgba(21, 21, 29, 0.868);
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  background: #0E0E0E;
+}
+.hero-img {
+  flex: 1 1 500px;
+  width: 50%;
+  height: 460px;
+  object-fit: cover;
+  object-position: 25% center; 
+
+}
+.hero-text {
+  flex: 1 1 440px;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  color: black;
+  background-color: rgb(113, 152, 178);;
+}
+.hero-text h1 {
+     font-size: 44px;
+     margin: 0; 
+     background-color: rgb(113, 152, 178);;
+    }
+.hero-text p { 
+    margin: 0;
+    line-height: 1.8;
+    background-color: rgb(113, 152, 178);
+ }
+.btn {
+  align-self: flex-start;
+  padding: 14px 32px;
+  background: #C9A24B;
+  color: #0E0E0E;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.product-photo{
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+
+.product-box{
+    
+    background-color: #E8F5E9;
+    width: 400px; height: 100%;
+    padding: 10px;
+    margin: 20px; 
+}
+.cart-title{
+    text-align: center;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    width: 300px;
+    height: 100px;
+   
+}
+
+
+
+.sub-title{
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #DC95FF;
+}
+.hero-slide{
+    color: blue;
+}
+.btn-shop{
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 1px solid #249D8F;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+.btn-shop:hover{
+    background-color: blue;
+    color: white;
+}
+
+.product-card{
+    box-sizing: border-box;
+    background-color: #E8F5E9;
+    width: 300px; height: 100%;
+    border: 1px solid #A1CB35;
+    padding: 10px;
+    margin: 10px;
+}
+img{
+    width: 100%; height: 250px;
+    object-fit: cover;
+}
+.product-container{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+   font-size: 40px ;
+}
+.cart-description{
+    color: blue;
+    text-align: center;
+}
+.cart-price{
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+.btn-buy{
+   
+    font-size: 14px;
+    background: #309310;
+    color: white;
+    border-radius: 8px;
+    justify-content: center;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 1px solid #249D8F;
+    transition: 0.3s;
+    width: 280px;
+    align-items: center;
+   
+}
+
+/* login */
+/* Register Page */
+.register-page {
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px; 
+    background-color: white
+    ;
+    color: white;
+}
+
+/* Register Box */
+.register-box {
+    width: 100%;
+    max-width: 430px;
+    background-color: white;
+    padding: 40px 35px;
+    border-radius: 15px;    
+    box-shadow: 0 10px 30px rgba(244, 238, 238, 0.968);
+}
+
+/* Heading */
+.register-box h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 12px;
+    color: #9c1515;
+}
+
+.register-box p {
+    text-align: center;
+    color: #4118c7ea;
+    font-size: 14px;
+    margin-bottom: 28px;
+    line-height: 1.6;
+}
+
+/* Labels */
+.register-box  {   
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #090404b4;
+}
+
+/* Input Fields */
+.register-box input {   
+    width: 100%;
+    padding: 13px 15px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.register-box submit{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+button{
+    margin: -2px;
+    display: block;
+    width: 60%;
+    background: #309310;
+    color: rgb(240, 235, 235);
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 20px;
+    padding: 5px 50px;
+    border: 1px solid #249D8F;
+    transition: 0.3s;
+    width: 280px;
+    align-items: center;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.button-container button{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+footer{
+    background-color: black ; 
+    color: white;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
